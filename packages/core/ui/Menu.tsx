@@ -228,15 +228,17 @@ const MenuPage = React.forwardRef((props: MenuPageProps, ref) => {
   useEffect(() => {
     if (anchorEl) {
       const rect = (anchorEl as HTMLElement).getBoundingClientRect()
+
+      const offset = 100
       if (position) {
         if (
-          rect.top !== position.top ||
+          rect.top - offset !== position.top ||
           rect.left + rect.width !== position.left
         ) {
-          setPosition({ top: rect.top, left: rect.left + rect.width })
+          setPosition({ top: rect.top - offset, left: rect.left + rect.width })
         }
       } else {
-        setPosition({ top: rect.top, left: rect.left + rect.width })
+        setPosition({ top: rect.top - offset, left: rect.left + rect.width })
       }
     } else if (!position) {
       setPosition({})
