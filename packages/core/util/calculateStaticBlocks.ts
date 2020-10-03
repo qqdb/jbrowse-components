@@ -21,7 +21,7 @@ export default function calculateStaticBlocks(
   padding = true,
   elision = true,
   extra = 0,
-  width = window.innerWidth,
+  width = window.innerWidth || model.width,
 ) {
   const {
     offsetPx,
