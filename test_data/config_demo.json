@@ -66,7 +66,7 @@
   ],
   "tracks": [
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "ncbi_gff_hg19",
       "name": "NCBI RefSeq (GFF3Tabix)",
       "assemblyNames": ["hg19"],
@@ -87,7 +87,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "repeats_hg19",
       "name": "Repeats",
       "assemblyNames": ["hg19"],
@@ -103,7 +103,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "nclist_genes_hg19",
       "name": "Gencode v19",
       "assemblyNames": ["hg19"],
@@ -150,7 +150,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "hg19_gaps",
       "name": "Gaps",
       "assemblyNames": ["hg19"],
@@ -166,7 +166,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_cnv_hg19",
       "name": "Clinvar CNV",
       "assemblyNames": ["hg19"],
@@ -182,7 +182,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_hg19",
       "name": "Clinvar variants",
       "assemblyNames": ["hg19"],
@@ -198,7 +198,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "repeats_hg38",
       "name": "Repeats",
       "assemblyNames": ["hg38"],
@@ -214,7 +214,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "gencode_nclist_hg38",
       "name": "Gencode v32",
       "assemblyNames": ["hg38"],
@@ -261,7 +261,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_cnv_hg38",
       "name": "Clinvar CNV",
       "assemblyNames": ["hg38"],
@@ -277,7 +277,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_hg38",
       "name": "Clinvar variants",
       "assemblyNames": ["hg38"],
@@ -293,7 +293,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "mane_hg38",
       "name": "MANE 0.6",
       "assemblyNames": ["hg38"],
@@ -312,7 +312,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "gdc_features",
       "name": "GDC Cancer",
       "assemblyNames": ["hg38"],
@@ -328,7 +328,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "hg38_gaps",
       "name": "Gaps",
       "assemblyNames": ["hg38"],
@@ -344,7 +344,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "ncbi_refseq_109_hg38",
       "name": "NCBI RefSeq (GFF3Tabix)",
       "assemblyNames": ["hg38"],
@@ -365,7 +365,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "ncbi_refseq_analysis_set",
       "name": "NCBI RefSeq (NCList)",
       "assemblyNames": ["hg38"],
@@ -1113,7 +1113,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "bigbed_peaks",
       "name": "Encode peaks",
       "assemblyNames": ["hg19"],
@@ -1199,7 +1199,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "variants_hg002",
       "name": "HG002 GIAB consensus SV (VCF)",
       "assemblyNames": ["hg19"],
@@ -1220,7 +1220,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "variants_hg002_ncbi",
       "name": "HG002 GIAB consensus SV NCBI (BED)",
       "assemblyNames": ["hg19"],
@@ -1267,7 +1267,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "sparql_togogenome",
       "name": "TogoGenome SPARQL Genes",
       "assemblyNames": ["hg19"],
@@ -1313,7 +1313,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "sparql_togovar",
       "name": "TogoVar SPARQL Variants",
       "assemblyNames": ["hg19"],
@@ -1778,7 +1778,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "category": ["Mappability"],
       "trackId": "wgEncodeDukeMapabilityRegionsExcludable.bed",
       "name": "wgEncodeDukeMapabilityRegionsExcludable.bed",
@@ -1797,7 +1797,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "wgEncodeDacMapabilityConsensusExcludable.bed",
       "name": "wgEncodeDacMapabilityConsensusExcludable.bed",
       "category": ["Mappability"],

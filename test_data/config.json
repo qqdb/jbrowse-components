@@ -65,7 +65,7 @@
   ],
   "tracks": [
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "repeats_hg19",
       "name": "Repeats",
       "assemblyNames": ["hg19"],
@@ -81,7 +81,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "nclist_genes_hg19",
       "name": "Gencode v19",
       "assemblyNames": ["hg19"],
@@ -128,7 +128,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "hg19_gaps",
       "name": "Gaps",
       "assemblyNames": ["hg19"],
@@ -144,7 +144,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_cnv_hg19",
       "name": "Clinvar CNV",
       "assemblyNames": ["hg19"],
@@ -160,7 +160,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_hg19",
       "name": "Clinvar variants",
       "assemblyNames": ["hg19"],
@@ -176,7 +176,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "repeats_hg38",
       "name": "Repeats",
       "assemblyNames": ["hg38"],
@@ -192,7 +192,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "gencode_nclist_hg38",
       "name": "Gencode v32",
       "assemblyNames": ["hg38"],
@@ -239,7 +239,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_cnv_hg38",
       "name": "Clinvar CNV",
       "assemblyNames": ["hg38"],
@@ -255,7 +255,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "clinvar_hg38",
       "name": "Clinvar variants",
       "assemblyNames": ["hg38"],
@@ -271,7 +271,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "mane_hg38",
       "name": "MANE 0.6",
       "assemblyNames": ["hg38"],
@@ -290,7 +290,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "gdc_features",
       "name": "GDC Cancer",
       "assemblyNames": ["hg38"],
@@ -306,7 +306,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "hg38_gaps",
       "name": "Gaps",
       "assemblyNames": ["hg38"],
