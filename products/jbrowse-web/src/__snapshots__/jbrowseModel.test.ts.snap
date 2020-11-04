@@ -1202,7 +1202,7 @@ Object {
         "type": "SvgFeatureRenderer",
       },
       "trackId": "gff3tabix_genes",
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
     },
     Object {
       "adapter": Object {
