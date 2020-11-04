@@ -806,7 +806,7 @@
       }
     },
     {
-      "type": "BasicTrack",
+      "type": "FeatureTrack",
       "trackId": "gff3tabix_genes",
       "assemblyNames": ["volvox"],
       "name": "GFF3Tabix genes",
